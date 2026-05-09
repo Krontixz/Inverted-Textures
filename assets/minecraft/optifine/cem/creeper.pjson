@@ -1,0 +1,22 @@
+{
+  "animations": [
+    {
+      "animation.creeper.swell": "is_swelling",
+      "animation.creeper.walk": "is_moving && !is_swelling",
+      "animation.creeper.charge": "is_charged",
+      "animation.creeper.die": "death_time > 0",
+      "animation.creeper.hurt": "hurt_time > 0"
+    }
+  ],
+  "render_controllers": [
+    {
+      "display_name": "glitch_creeper",
+      "overlay_color": {
+        "r": "is_swelling ? 1.0 : 0.0",
+        "g": "0.0",
+        "b": "0.0",
+        "a": "is_swelling ? Math.sin(query.life_time * 20) * 0.5 + 0.5 : 0.0"
+      }
+    }
+  ]
+}
