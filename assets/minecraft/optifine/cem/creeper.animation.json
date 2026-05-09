@@ -5,34 +5,79 @@
       "loop": true,
       "animation_length": 0.5,
       "bones": {
-        "head": { "rotation": { "0.0": [-22.5, 0, 0], "0.5": } },
-        "leg0": { "rotation": { "0.0":, "0.29": [-27.5, 0, 0] } }
+        "head": {
+          "rotation": {
+            "0.0": [-22.5, 0, 0],
+            "0.5":
+          }
+        },
+        "leg0": {
+          "rotation": {
+            "0.0":,
+            "0.29": [-27.5, 0, 0]
+          }
+        }
       }
     },
     "animation.creeper.swell": {
       "animation_length": 0.708,
       "bones": {
-        "body": { "scale": { "0.0": [2.1, 1, 1], "0.25": [17.55, 1.65, 1.6], "0.5": [3.6, 2.3, 2.2] } },
-        "head": { "position": { "0.0":, "0.7": } }
+        "body": {
+          "scale": {
+            "0.0": [2.1, 1, 1],
+            "0.25": [17.55, 1.65, 1.6],
+            "0.5": [3.6, 2.3, 2.2]
+          }
+        },
+        "head": {
+          "position": {
+            "0.0":,
+            "0.7":
+          }
+        }
       }
     },
     "animation.creeper.charge": {
       "bones": {
-        "body": { "rotation": },
-        "head": { "rotation": [-27.5, 0, 0] }
+        "body": {
+          "rotation": [-40, 0, 0]
+        },
+        "head": {
+          "rotation": [-27.5, 0, 0]
+        }
       }
     },
     "animation.creeper.die": {
       "animation_length": 0.625,
       "bones": {
-        "body": { "rotation": { "0.0":, "0.625": [0, 0, 93.47] } },
-        "head": { "rotation": { "0.0":, "0.625": }, "position": { "0.0":, "0.625": [-19, -5, 0] } }
+        "body": {
+          "rotation": {
+            "0.0":,
+            "0.625": [0, 0, 93.47]
+          }
+        },
+        "head": {
+          "rotation": {
+            "0.0":,
+            "0.625": [127.52, -33.97, 35.02]
+          },
+          "position": {
+            "0.0":,
+            "0.625": [-19, -5, 0]
+          }
+        }
       }
     },
     "animation.creeper.hurt": {
       "animation_length": 0.25,
       "bones": {
-        "body": { "position": { "0.0":, "0.125": [0, 5, -4], "0.25": } }
+        "body": {
+          "position": {
+            "0.0":,
+            "0.125": [0, 5, -4],
+            "0.25":
+          }
+        }
       }
     }
   }
