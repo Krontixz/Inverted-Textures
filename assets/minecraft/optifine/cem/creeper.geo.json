@@ -1,0 +1,20 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.creeper",
+        "texture_width": 64,
+        "texture_height": 32
+      },
+      "bones": [
+        { "name": "body", "pivot":, "cubes": [{ "origin": [-4, 6, -2], "size":, "uv": }] },
+        { "name": "head", "parent": "body", "pivot":, "cubes": [{ "origin": [-4, 18, -4], "size":, "uv": }] },
+        { "name": "leg0", "parent": "body", "pivot":, "cubes": [{ "origin":, "size":, "uv": }] },
+        { "name": "leg1", "parent": "body", "pivot": [-2, 6, 4], "cubes": [{ "origin": [-4, 0, 2], "size":, "uv": }] },
+        { "name": "leg2", "parent": "body", "pivot": [2, 6, -4], "cubes": [{ "origin": [0, 0, -6], "size":, "uv": }] },
+        { "name": "leg3", "parent": "body", "pivot": [-2, 6, -4], "cubes": [{ "origin": [-4, 0, -6], "size":, "uv": }] }
+      ]
+    }
+  ]
+}
